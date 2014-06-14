@@ -1,15 +1,80 @@
-//  _________________________
-// |   #M0rehud @ Quakenet   |
-//  ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-Scheme{Colors{
+//
+// 
+//TRACKER SCHEME RESOURCE FILE
+//
+// sections:
+//		colors			- all the colors used by the scheme
+//		basesettings	- contains settings for app to use to draw controls
+//		fonts			- list of all the fonts used by app
+//		borders			- description of all the borders
+//
+//
+Scheme
+{
+	//Name - currently overriden in code
+	//{
+	//	"Name"	"ClientScheme"
+	//}
+
+	//////////////////////// COLORS ///////////////////////////
+	Colors
+	{
+		// omp colours
+		"OmpText"			"255 255 255 255"
+		"OmpShadow"			"30 30 30 255"
+		
+		"OmpLightBG"		"30 30 30 125"
+		"OmpMediumBG"		"0 0 0 175"
+		"OmpDarkBG"			"30 30 30 225"
+		"OmpDarkerBG"		"30 30 30 250"
+		"OmpDarkestBG"		"30 30 30 255"
+		"OmpWhiteBG"		"225 225 225 225"
+		
+		"OmpHP"			"255 255 255 255"
+		"OmpHPBuff"		"125 225 30 255"
+		"OmpHPLow"		"255 0 0 255"
+		"OmpSpecHP"		"255 255 255 255"
+		"OmpSpecHPBuff"		"125 225 30 255"
+		"OmpSpecHPLow"		"225 0 0 255"
+		
+		"OmpAmmoClip"		"30 225 225 255"
+		"OmpAmmoReserve"	"255 30 255 255"
+		"OmpAmmoMetal"		"125 225 30 255"
+		"OmpDemoPipes"		"255 255 255 255"
+
+		"OmpAmmoClipLow1"	"255 30 30 255"
+		"OmpAmmoClipLow2"	"200 30 30 255"
+		"OmpAmmoReserveLow1"	"255 30 30 255"
+		"OmpAmmoReserveLow2"	"200 30 30 255"
+		
+		"OmpHealNumbers"	"125 225 30 255"
+		"OmpDamageNumbers"	"255 255 30 255"
+		
+		"OmpMeterLabel"		"125 125 125 255"
+		"OmpMedicCharge1"	"125 225 30 255"
+		"OmpMedicCharge2"	"125 225 30 255"
+		
+		"OmpChargeAmount"	"30 225 225 255"
+		"OmpRespawnTime"	"255 30 255 255"
+		
+		// chippy colors
+		"White"		"255 255 255 255"
+		"Black"		"0 0 0 255"
+		"HPAmmoBonus"	"75 175 255 255"
+		"HPAmmoBonusPulse"	"0 200 255 255"
+		"HPAmmoDanger"	"255 0 0 255"
+		"HPAmmoDangerPulse"	"255 75 75 255"
+		
+		"TargetID low HP"     "255 210 160 255"
+		"TargetID buffed HP"  "140 255 100 255"
+
+		// base colors
 		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"
 		"LightOrange"		"188 112 0 128"
 		"GoalOrange"		"255 133 0"
 		"TFOrange"			"145 73 59 255"
-		"HudWhite"			"255 255 255 255"
 		
-		"HudBlack"			"65 65 65 255"
 		"White"				"235 235 235 255"
 		"Red"				"192 28 0 140"
 		"RedSolid"			"192 28 0 255"
@@ -18,7 +83,8 @@ Scheme{Colors{
 		"TransparentYellow"	"251 235 202 140"
 		//"Black"				"0 0 0 255"
 		//Changed black to a NTSC safe color
-		"HUDSpectator"		"124 124 124 127"
+		"GreenSolid" "76 107 34 255"
+		
 		"Black"				"46 43 42 255"
 		"TransparentBlack"	"0 0 0 196"
 		"TransparentLightBlack"	"0 0 0 90"
@@ -33,6 +99,8 @@ Scheme{Colors{
 		"HudWhite"			"255 255 255 255"
 		"HudOffWhite"		"200 187 161 255"
 		"HudBlack"			"65 65 65 255"
+		"ProgressBarBlue" 		"91 122 142 255"
+		"CreditsGreen" 		"94 150 49 255"
 		
 		"Gray"				"178 178 178 255"
 
@@ -60,6 +128,8 @@ Scheme{Colors{
 		"TanDark"				"117 107 94 255"
 		"TanLight"				"235 226 202 255"
 		"TanDarker"				"46 43 42 255"
+		"StoreDarkTan" 			"131 121 104 255"
+		"StoreGreen" 			"76 107 34 255"
 		
 		// Building HUD Specific
 		"LowHealthRed"		"255 0 0 255"
@@ -99,37 +169,73 @@ Scheme{Colors{
 		"ItemFlags"								"117 107 94 255"
 		
 		"QualityColorNormal"					"178 178 178 255"
-		"QualityColorrarity1"					"77 116 85 255"
+		"QualityColorrarity1"					"112 176 74 255"
 		"QualityColorrarity2"					"141 131 75 255"
 		"QualityColorrarity3"					"112 85 15 255"
 		"QualityColorrarity4"					"134 80 172 255"
 		"QualityColorVintage"					"71 98 145 255"
 		"QualityColorUnique"					"255 215 0 255"
-		"QualityColorCommunity"					"112 176 74 255"
+		"QualityColorCommunity"					"77 116 85 255"
 		"QualityColorDeveloper"					"165 15 121 255"
 		"QualityColorSelfMade"					"112 176 74 255"
 		"QualityColorCustomized"				"71 98 145 255"
 		"QualityColorStrange"					"207 106 50 255"
+		"QualityColorCompleted"					"134 80 172 255"
+		"QualityColorHaunted"					"134 80 172 255"
+
+		"SaleGreen"						"76 107 34 255"
+
+		"LightRed"						"200 80 60 255"
+		"LighterRed"						"220 100 80 255"
+		"LighterDarkBrown"					"59 54 48 255"
+		"DarkBrown"						"41 37 38 255"
 		
-		"SaleGreen"								"76 107 34 255"
-    "lRed" "255 0 127 255"
-    "lBlue" "0 255 255 255"
-    "lGreen" "0 255 127 255"
-    "lBlack" "0 0 0 255"
-    "lWhite" "255 255 255 255"
-    "lPink" "255 0 127 255"
-    "lTransparentBlack" "0 0 0 170"
-    "lViolet" "127 0 255 255"
-    "lScreenBlue" "0 0 255 255"
-    "lGrey" "127 127 127 255"
-    "lYellow" "255 255 127 255"
-    "lVanilla" "255 255 191 255"	
-    "lCyan" "0 255 255 255"	
+		"UpgradeDefaultFg" 				"87 82 74 255"
+		"UpgradeDefaultBg" 			"111 104 94 255"
+		"UpgradeArmedFg" 					"194 96 47 255"
+		"UpgradeArmedBg" 						"239 128 73 255"
+		"UpgradeDepressedFg" 					"204 106 57 255"
+		"UpgradeDepressedBg" 					"249 138 83 255"
+		"UpgradeSelectedFg" 				"204 106 57 255"
+		"UpgradeSelectedBg" 				"249 138 83 255"
+		"UpgradeDisabledFg" 			"64 59 52 255"
+		"UpgradeDisabledBg" 					"79 77 68 255"
 	}
 
+	///////////////////// BASE SETTINGS ////////////////////////
+	// default settings for all panels
+	// controls use these to determine their settings
 	BaseSettings
 	{
 		// vgui_controls color specifications
+		ReplayBrowser.BgColor								"DarkBrown"
+		ReplayBrowser.Details.TitleEdit.Carat.FgColor		"LightRed"
+		ReplayBrowser.Button.ArmedBgColor					"TFOrange"
+		ReplayBrowser.Button.DepressedBgColor				"TFOrange"
+		ReplayBrowser.CollectionTitle.FgColor				"LightRed"
+		ReplayBrowser.Warning.FgColor						"White"
+		ReplayBrowser.ScrollBar.SliderButton.FgColor		"TransparentYellow"
+		ReplayBrowser.Search.BgColor						"TanDark"
+		ReplayBrowser.Search.FgColor						"White"
+		
+		Replay.RenderDialog.BgColor							"LighterDarkBrown"
+		
+		Econ.Dialog.BgColor									"Blank"
+		Econ.Button.BgColor									"TanDark"
+		Econ.Button.FgColor									"TanLight"
+		Econ.Button.ArmedBgColor							"TFOrange"
+		Econ.Button.ArmedFgColor							"TanLight"
+		Econ.Button.DepressedBgColor						"TFOrange"
+		Econ.Button.DepressedFgColor						"Black"
+		
+		Econ.Button.PresetDefaultColorFg					"TanLight"
+		Econ.Button.PresetArmedColorFg						"TanLight"
+		Econ.Button.PresetDepressedColorFg					"TanLight"
+		
+		Econ.Button.PresetDefaultColorBg					"LighterRed"
+		Econ.Button.PresetArmedColorBg						"LightRed"
+		Econ.Button.PresetDepressedColorBg					"TFOrange"
+
 		Border.Bright					"Blank"		// the lit side of a control
 		Border.Dark						"Black"		// the dark/unlit side of a control
 		Border.Selection				"Gray"			// the additional border color for displaying the default/selected button
@@ -138,8 +244,8 @@ Scheme{Colors{
 		Button.BgColor					"TanDark"
 		Button.ArmedTextColor			"TanLight"
 		Button.ArmedBgColor				"TFOrange"
-		Button.SelectedTextColor		"TanLight"
-		Button.SelectedBgColor			"TFOrange"
+		Button.SelectedTextColor 				"TanLight"
+		Button.SelectedBgColor 				"TFOrange"
 		Button.DepressedTextColor		"Black"
 		Button.DepressedBgColor			"TFOrange"
 
@@ -209,8 +315,8 @@ Scheme{Colors{
 
 		HTML.BgColor					"Blank"
 
-		ProgressBar.FgColor				"255 255 255 255"
-		ProgressBar.BgColor				"0 0 0 50"
+		ProgressBar.FgColor				"ProgressOffWhite"
+		ProgressBar.BgColor				"ProgressBackground"
 
 		CircularProgressBar.FgColor		"White"
 		CircularProgressBar.BgColor		"White"
@@ -353,130 +459,930 @@ Scheme{Colors{
 		// fonts are used in order that they are listed
 		// fonts listed later in the order will only be used if they fulfill a range not already filled
 		// if a font fails to load then the subsequent fonts will replace
-		Coolvetica
+		"xHairCross"
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
-				"tall"		"15"
+				"name"		"ASTRO_867"
+				"tall"		"16"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"1"
+			}
+		}
+		"Futura11"
+		{
+			"1"
+			{
+				"name"		"FuturaStd-Medium"
+				"tall"		"11"
 				"additive"	"0"
 				"antialias" "1"
 			}
 		}
-    "lType1"
-    {
-     "1"
-      {
-        "name"      "Berthold Akzidenz Grotesk BE"
-        "tall"      "12"
-        "antialias" "1"
-        "additive"  "0"
-	}
-    }
-		M0refont16
+		"Crosshairs40"
 		{
 			"1"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Crosshairs Regular"
+				"tall"		"40"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		knFontDamage
+		{
+			"1"
+			{
+				"name"		"Novecentowide-Bold"
+				"tall"		"16"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"1"
+			}
+		}
+		knFontDamageBig
+		{
+			"1"
+			{
+				"name"		"Novecentowide-Bold"
+				"tall"		"18"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"1"
+			}
+		}
+		knFontRespawn
+		{
+			"1"
+			{
+				"name"		"Novecentowide-Bold"
+				"tall"		"13"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"1"
+			}
+		}
+		"chippyHPBucket"
+		{
+			"1"
+			{
+			"name"		"Tahoma"
+			"tall"		"8"
+			"weight"	"900"
+			"range"		"0x0000 0x017F"
+			"antialias"	"0"
+			"outline"	"1"
+			}
+		}
+		"chippyHPCross"
+		{
+			"1"
+			{
+			"name"		"HalfLife2"
+			"tall"		"96"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			}
+		}
+		"chippyMedium8"
+		{
+			"1"
+			{
+			"name"		"Maven Pro Medium"
+			"tall"		"8"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			}
+		}
+		"chippyMedium8Days"
+		{
+			"1"
+			{
+			"name"		"days"
+			"tall"		"8"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			}
+		}
+		"chippyMedium9"
+		{
+			"1"
+			{
+			"name"		"Maven Pro Medium"
+			"tall"		"9"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			}
+		}
+		"chippyMedium9OL"
+		{
+			"1"
+			{
+			"name"		"Maven Pro Medium"
+			"tall"		"9"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			"outline"	"0 0 0 150"
+			}
+		}
+		"chippyMedium10"
+		{
+			"1"
+			{
+			"name"		"Maven Pro Medium"
+			"tall"		"10"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			}
+		}
+		"chippyMedium11"
+		{
+			"1"
+			{
+			"name"		"Maven Pro Medium"
+			"tall"		"11"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			}
+		}
+		"chippyMedium12"
+		{
+			"1"
+			{
+			"name"		"Maven Pro Medium"
+			"tall"		"12"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			}
+		}
+		"chippyMedium14"
+		{
+			"1"
+			{
+			"name"		"days"
+			"tall"		"14"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			}
+		}
+		"chippyMedium16"
+		{
+			"1"
+			{
+			"name"		"days"
+			"tall"		"16"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			}
+		}
+		"chippyMedium16OL"
+		{
+			"1"
+			{
+			"name"		"Maven Pro Medium"
+			"tall"		"16"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			}
+		}
+		"chippyMedium18"
+		{
+			"1"
+			{
+			"name"		"Maven Pro Medium"
+			"tall"		"18"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			}
+		}
+		"chippyMedium21"
+		{
+			"1"
+			{
+			"name"		"Maven Pro Medium"
+			"tall"		"21"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			}
+		}
+		"chippyMedium24"
+		{
+			"1"
+			{
+			"name"		"Maven Pro Medium"
+			"tall"		"24"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			}
+		}
+		"chippyMedium30"
+		{
+			"1"
+			{
+			"name"		"Maven Pro Medium"
+			"tall"		"30"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			}
+		}
+		"chippyMedium36"
+		{
+			"1"
+			{
+			"name"		"Maven Pro Medium"
+			"tall"		"36"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			}
+		}
+		"chippyBold8"
+		{
+			"1"
+			{
+			"name"		"Maven Pro Bold"
+			"tall"		"8"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			}
+		}
+		"chippyBold9"
+		{
+			"1"
+			{
+			"name"		"Maven Pro Bold"
+			"tall"		"9"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			}
+		}
+		"chippyBold10"
+		{
+			"1"
+			{
+			"name"		"Maven Pro Bold"
+			"tall"		"10"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			}
+		}
+		"chippyBold11"
+		{
+			"1"
+			{
+			"name"		"days"
+			"tall"		"11"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			}
+		}
+		"chippyBold12"
+		{
+			"1"
+			{
+			"name"		"Maven Pro Bold"
+			"tall"		"12"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			}
+		}
+		"chippyBold12Days"
+		{
+			"1"
+			{
+			"name"		"days"
+			"tall"		"12"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			}
+		}
+		"chippyBold14"
+		{
+			"1"
+			{
+			"name"		"Maven Pro Bold"
+			"tall"		"14"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			}
+		}
+		"chippyBold14Days"
+		{
+			"1"
+			{
+			"name"		"days"
+			"tall"		"14"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			}
+		}
+		"chippyBold16"
+		{
+			"1"
+			{
+			"name"		"Maven Pro Bold"
+			"tall"		"16"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			}
+		}
+		"chippyBold18"
+		{
+			"1"
+			{
+			"name"		"Maven Pro Bold"
+			"tall"		"18"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			"outline"	"0"
+			}
+		}
+		"chippyBold18OL"
+		{
+			"1"
+			{
+			"name"		"Maven Pro Bold"
+			"tall"		"18"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			"outline"	"1"
+			}
+		}
+		"chippyBold21"
+		{
+			"1"
+			{
+			"name"		"Maven Pro Bold"
+			"tall"		"21"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			}
+		}
+		"chippyBold24"
+		{
+			"1"
+			{
+			"name"		"Maven Pro Bold"
+			"tall"		"24"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			}
+		}
+		"chippyBold30"
+		{
+			"1"
+			{
+			"name"		"Maven Pro Bold"
+			"tall"		"30"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			}
+		}
+		"chippyBold36"
+		{
+			"1"
+			{
+			"name"		"Maven Pro Bold"
+			"tall"		"36"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			}
+		}
+		"chippyBlack8"
+		{
+			"1"
+			{
+			"name"		"Maven Pro Black"
+			"tall"		"8"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			}
+		}
+		"chippyBlack9"
+		{
+			"1"
+			{
+			"name"		"Maven Pro Black"
+			"tall"		"9"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			}
+		}
+		"chippyBlack10"
+		{
+			"1"
+			{
+			"name"		"Maven Pro Black"
+			"tall"		"10"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			}
+		}
+		"chippyBlack11"
+		{
+			"1"
+			{
+			"name"		"Maven Pro Black"
+			"tall"		"11"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			}
+		}
+		"chippyBlack12"
+		{
+			"1"
+			{
+			"name"		"Maven Pro Black"
+			"tall"		"12"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			}
+		}
+		"chippyBlack12OL"
+		{
+			"1"
+			{
+			"name"		"Maven Pro Black"
+			"tall"		"12"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			"outline"	"1"
+			}
+		}
+		"chippyBlack14"
+		{
+			"1"
+			{
+			"name"		"Maven Pro Black"
+			"tall"		"14"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			}
+		}
+		"chippyBlack16"
+		{
+			"1"
+			{
+			"name"		"Maven Pro Black"
+			"tall"		"16"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			}
+		}
+		"chippyBlack18"
+		{
+			"1"
+			{
+			"name"		"Maven Pro Black"
+			"tall"		"18"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			}
+		}
+		"chippyBlack24"
+		{
+			"1"
+			{
+			"name"		"days"
+			"tall"		"24"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			}
+		}
+		"chippyBlack24OL"
+		{
+			"1"
+			{
+			"name"		"Maven Pro Black"
+			"tall"		"24"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			}
+		}
+		"chippyBlack21"
+		{
+			"1"
+			{
+			"name"		"days"
+			"tall"		"20"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			}
+		}
+		"chippyBlack21OL"
+		{
+			"1"
+			{
+			"name"		"days"
+			"tall"		"20"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			"outline"	"0 0 0 150"
+			}
+		}
+		"chippyBlack22"
+		{
+			"1"
+			{
+			"name"		"days"
+			"tall"		"22"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			}
+		}
+		"chippyBlack30"
+		{
+			"1"
+			{
+			"name"		"Maven Pro Black"
+			"tall"		"30"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			}
+		}
+		"chippyBlack36"
+		{
+			"1"
+			{
+			"name"		"Maven Pro Black"
+			"tall"		"36"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			}
+		
+		}
+		knFontBold8
+		{
+			"1"
+			{
+				"name"		"Novecentowide-Bold"
+				"tall"		"8"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
+		knFontBold9
+		{
+			"1"
+			{
+				"name"		"Novecentowide-Bold"
+				"tall"		"9"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
+		knFontBold10
+		{
+			"1"
+			{
+				"name"		"Novecentowide-Bold"
+				"tall"		"10"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
+		knFontBold11
+		{
+			"1"
+			{
+				"name"		"Novecentowide-Bold"
+				"tall"		"11"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
+		knFontBold12
+		{
+			"1"
+			{
+				"name"		"Novecentowide-Bold"
+				"tall"		"12"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
+		knFontBold14
+		{
+			"1"
+			{
+				"name"		"Novecentowide-Bold"
+				"tall"		"14"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
+		knFontBold16
+		{
+			"1"
+			{
+				"name"		"Novecentowide-Bold"
 				"tall"		"16"
 				"additive"	"0"
 				"antialias" 	"1"
 				"outline"	"0"
 			}
 		}
-		M0refont50
+		knFontBold19
 		{
 			"1"
 			{
-				"name"		"Surface-Medium"
-				"tall"		"32"
-				"additive"	"0"
-				"antialias" 	"1"
-				"outline"	"0"
-			}
-		}
-		M0refont18
-		{
-			"1"
-			{
-				"name"		"Surface-Medium"
-				"tall"		"18"
-				"additive"	"0"
-				"antialias" 	"1"
-				"outline"	"0"
-			}
-		}
-		M0refont18Outline
-		{
-			"1"
-			{
-				"name"		"Surface-Medium"
-				"tall"		"18"
+				"name"		"Novecentowide-Bold"
+				"tall"		"19"
 				"additive"	"0"
 				"antialias" 	"1"
 				"outline"	"1"
 			}
 		}
-		M0refont24
+		knFontBold21
 		{
 			"1"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Novecentowide-Bold"
+				"tall"		"21"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
+		knFontBold21OL
+		{
+			"1"
+			{
+				"name"		"Novecentowide-Bold"
+				"tall"		"21"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"1"
+			}
+		}
+		knFontBold24
+		{
+			"1"
+			{
+				"name"		"Novecentowide-Bold"
 				"tall"		"24"
 				"additive"	"0"
 				"antialias" 	"1"
 				"outline"	"0"
 			}
 		}
-		M0refont24Outline
+		knFontBold30
 		{
 			"1"
 			{
-				"name"		"Surface-Medium"
-				"tall"		"24"
+				"name"		"Novecentowide-Bold"
+				"tall"		"30"
 				"additive"	"0"
 				"antialias" 	"1"
-				"outline"	"1"
+				"outline"	"0"
 			}
 		}
-		M0refont36
+		knFontBold36
 		{
 			"1"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Novecentowide-Bold"
 				"tall"		"36"
 				"additive"	"0"
 				"antialias" 	"1"
 				"outline"	"0"
 			}
 		}
-		M0refont36Outline
+		knFontBold48
 		{
 			"1"
 			{
-				"name"		"Surface-Medium"
-				"tall"		"36"
-				"additive"	"0"
-				"antialias" 	"1"
-				"outline"	"1"
-			}
-		}
-		M0refont48
-		{
-			"1"
-			{
-				"name"		"Surface-Medium"
+				"name"		"Novecentowide-Bold"
 				"tall"		"48"
 				"additive"	"0"
 				"antialias" 	"1"
 				"outline"	"0"
 			}
 		}
-		M0refont72
+		knFontBold60
 		{
 			"1"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Novecentowide-Bold"
+				"tall"		"60"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
+		knFontDemiBold8
+		{
+			"1"
+			{
+				"name"		"Novecentowide-DemiBold"
+				"tall"		"8"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
+		knFontDemiBold9
+		{
+			"1"
+			{
+				"name"		"Novecentowide-DemiBold"
+				"tall"		"9"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
+		knFontDemiBold10
+		{
+			"1"
+			{
+				"name"		"Novecentowide-DemiBold"
+				"tall"		"10"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
+		knFontDemiBold11
+		{
+			"1"
+			{
+				"name"		"Novecentowide-DemiBold"
+				"tall"		"11"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
+		knFontDemiBold12
+		{
+			"1"
+			{
+				"name"		"Novecentowide-DemiBold"
+				"tall"		"12"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
+		knFontDemiBold14
+		{
+			"1"
+			{
+				"name"		"Novecentowide-DemiBold"
+				"tall"		"14"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
+		knFontDemiBold16
+		{
+			"1"
+			{
+				"name"		"Novecentowide-DemiBold"
+				"tall"		"16"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
+		knFontDemiBold21
+		{
+			"1"
+			{
+				"name"		"Novecentowide-DemiBold"
+				"tall"		"21"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
+		knFontDemiBold24
+		{
+			"1"
+			{
+				"name"		"Novecentowide-DemiBold"
+				"tall"		"24"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
+		knFontDemiBold30
+		{
+			"1"
+			{
+				"name"		"Novecentowide-DemiBold"
+				"tall"		"30"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
+		knFontDemiBold36
+		{
+			"1"
+			{
+				"name"		"Novecentowide-DemiBold"
+				"tall"		"36"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
+		knFontDemiBold48
+		{
+			"1"
+			{
+				"name"		"Novecentowide-DemiBold"
+				"tall"		"48"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
+		knFontDemiBold60
+		{
+			"1"
+			{
+				"name"		"Novecentowide-DemiBold"
+				"tall"		"60"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
+		knFontDemiBold72
+		{
+			"1"
+			{
+				"name"		"Novecentowide-DemiBold"
+				"tall"		"72"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
+		knFontBold72
+		{
+			"1"
+			{
+				"name"		"Novecentowide-Bold"
 				"tall"		"72"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -484,171 +1390,98 @@ Scheme{Colors{
 			}
 		}
 
-		"M0rexhairCross"
+		"FlagIcon"
 		{
 			"1"
 			{
-				"name"		  "Courier"
-				"tall"		  "20"
-				"weight"	  "0"
-				"range"     "0x0000 0x017F"
-				"outline"   "1"
-                "additive"  "0"
-			}
-		}     
-		"M0rexhairCircle"
-		{
-			"1"
-			{
-				"name"		  "taller evolution"
-				"tall"		  "7"
-				"wide"		  "1"
-				"weight"	  "0"
+				"name"		"Heydings Icons"
+				"tall"		"20"
+				"weight"	"0"
 				"antialias"	"1"
-				"outline"   "0"
 			}
 		}
-		"M0rexhairDotOL"
+
+		"CrossHairDotOutline"
 		{
 			"1"
 			{
-				"name"		  "Astro 867"
-				"tall"		  "13"
-				"weight"	  "0"   
-				"additive"  "0"
-				"outline"   "1"
+				"name"		"Paula"
+				"tall"		"4"
+				"weight"		"0"
+				"outline" 		"1"
 			}
 		}
-		"M0rexhairDotOL2"
+		
+		"CrossHairKonrWings"
 		{
 			"1"
 			{
-				"name"		  "Astro 867"
-				"tall"		  "11"
-				"weight"	  "0"   
-				"additive"  "0"
-				"outline"   "1"
+				"name"		"Garm3nFont"
+				"tall"		"18"
+				"weight"	"0"
+				"antialias"	"1"
 			}
 		}
-		"M0rexhairDot"
+
+		"CrossHairSpecialCombo1"
 		{
 			"1"
 			{
-				"name"		  "Astro 867"
-				"tall"		  "13"
-				"weight"	  "0"   
-				"additive"  "0"
-				"outline"   "0"
+				"name"		"Formas germetricas 1"
+				"tall"		"3"
+				"weight"	"0"
+				"antialias"	"1"
 			}
 		}
-		"M0rexhairDot2"
-		{
-			"1"
-			{
-				"name"		  "Astro 867"
-				"tall"		  "11"
-				"weight"	  "0"   
-				"additive"  "0"
-				"outline"   "0"
-			}
-		}		
+		
 		"Default"
 		{
-      "1"
-      {
-				"name"		  "Surface-Medium"
-        "tall"      "14"
-        "antialias" "1"
-				"yres"	    "480 700"
+			"1"
+			{
+				"name"		"Maven Pro Regular"
+				"tall"		"11"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"480 599"
 			}
-      "2"
-      {
-				"name"		  "Surface-Medium"
-        "tall"      "18"
-        "antialias" "1"
-				"yres"	    "701 899"
+			"2"
+			{
+				"name"		"Maven Pro Regular"
+				"tall"		"12"	[$WIN32]
+				"tall"		"20"	[$X360]
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"600 767"
 			}
-      "3"
-      {
-				"name"		  "Surface-Medium"
-        "tall"      "22"
-        "antialias" "1"
-				"yres"	    "900 1000"
+			"3"
+			{
+				"name"		"Maven Pro Regular"
+				"tall"		"13"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"768 1023"
+				"antialias"	"1"
 			}
-      "4"
-      {
-				"name"		  "Surface-Medium"
-        "tall"      "24"
-        "antialias" "1"
-				"yres"	    "1001 10000"
+			"4"
+			{
+				"name"		"Maven Pro Regular"
+				"tall"		"18"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1024 1199"
+				"antialias"	"1"
 			}
-     }
-		"DefaultOutline"
-		{
-      "1"
-      {
-				"name"		  "Surface-Medium"
-        "tall"      "16"
-        "antialias" "1"
-				"yres"	    "480 700"
-				"outline"   "1"
+			"5"
+			{
+				"name"		"Maven Pro Regular"
+				"tall"		"20"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1200 6000"
+				"antialias"	"1"
 			}
-      "2"
-      {
-				"name"		  "Surface-Medium"
-        "tall"      "20"
-        "antialias" "1"
-				"yres"	    "701 899"
-				"outline"   "1"
-			}
-      "3"
-      {
-				"name"		  "Surface-Medium"
-        "tall"      "24"
-        "antialias" "1"
-				"yres"	    "900 1000"
-				"outline"   "1"
-			}
-      "4"
-      {
-				"name"		  "Surface-Medium"
-        "tall"      "26"
-        "antialias" "1"
-				"yres"    	"1001 10000"
-				"outline"   "1"
-			}
-     }
-		"DefaultNumber"
-		{
-      "1"
-      {
-				"name"		  "Surface-Medium"
-        "tall"      "16"
-        "antialias" "1"
-				"yres"	    "480 700"
-			}
-      "2"
-      {
-				"name"		  "Surface-Medium"
-        "tall"      "20"
-        "antialias" "1"
-				"yres"	    "701 899"
-			}
-      "3"
-      {
-				"name"		  "Surface-Medium"
-        "tall"      "24"
-        "antialias" "1"
-				"yres"	    "900 1000"
-			}
-      "4"
-      {
-				"name"		  "Surface-Medium"
-        "tall"      "26"
-        "antialias" "1"
-				"yres"	    "1001 10000"
-			}
-     }
+			
+		}
 		"DefaultUnderline"
 		{
 			"1"
@@ -667,37 +1500,164 @@ Scheme{Colors{
 				"weight"		"800"
 			}
 		}
+
+		"DefaultOutline"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"10"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"outline"	"1"
+			}
+		}
+		"DefaultSmallOutline"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"12"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"480 599"
+				"outline" "1"
+			}
+			"2"
+			{
+				"name"		"Verdana"
+				"tall"		"13"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"600 767"
+				"outline" "1"
+			}
+			"3"
+			{
+				"name"		"Verdana"
+				"tall"		"14"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"768 1023"
+				"antialias"	"1"
+				"outline" "1"
+			}
+			"4"
+			{
+				"name"		"Verdana"
+				"tall"		"20"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"1024 1199"
+				"antialias"	"1"
+				"outline" "1"
+			}
+			"5"
+			{
+				"name"		"Verdana"
+				"tall"		"22"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"1200 6000"
+				"antialias"	"1"
+				"outline" "1"
+			}
+			"6"
+			{
+				"name"		"Arial"
+				"tall"		"12"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"0"
+				"outline" "1"
+			}
+		}
+		"DefaultMediumOutline"
+		{
+			"1"
+			{
+				"name"		"Courier New"
+				"tall"		"16"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"outline"	"1"
+			}
+		}		
+		"DefaultLargeOutline"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"12"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"outline"	"1"
+				"yres"	"480 599"
+			}
+			"2"
+			{
+				"name"		"Verdana"
+				"tall"		"14"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"outline"	"1"
+				"yres"	"600 10000"
+			}
+		}
 		"DefaultSmall"
 		{
-      "1"
-      {
-				"name"		"Surface-Medium"
-        "tall"      "13"
-        "antialias" "1"
-				"yres"	"480 700"
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"12"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"480 599"
 			}
-      "2"
-      {
-				"name"		"Surface-Medium"
-        "tall"      "16"
-        "antialias" "1"
-				"yres"	"701 899"
+			"2"
+			{
+				"name"		"Verdana"
+				"tall"		"13"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"600 767"
 			}
-      "3"
-      {
-				"name"		"Surface-Medium"
-        "tall"      "20"
-        "antialias" "1"
-				"yres"	"900 1000"
+			"3"
+			{
+				"name"		"Verdana"
+				"tall"		"14"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"768 1023"
+				"antialias"	"1"
 			}
-      "4"
-      {
-				"name"		"Surface-Medium"
-        "tall"      "24"
-        "antialias" "1"
-				"yres"	"1001 10000"
+			"4"
+			{
+				"name"		"Verdana"
+				"tall"		"20"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"1024 1199"
+				"antialias"	"1"
 			}
-     }
+			"5"
+			{
+				"name"		"Verdana"
+				"tall"		"22"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"1200 6000"
+				"antialias"	"1"
+			}
+			"6"
+			{
+				"name"		"Arial"
+				"tall"		"12"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"0"
+			}
+		}
+
+
 		"DefaultVerySmall"
 		{
 			"1"
@@ -727,9 +1687,9 @@ Scheme{Colors{
 			}
 			"4"
 			{
-				"name"		"Verdana"
-				"tall"		"14"
-				"weight"	"0"
+				"name"		"Arial"
+				"tall"		"16"
+				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1024 1199"
 				"antialias"	"1"
@@ -817,7 +1777,17 @@ Scheme{Colors{
 				"additive"	"1"
 			}
 		}
-
+		"PlayerPanelPlayerName"
+			{
+				"1"
+				{
+					"name" "Verdana"
+					"tall" "6"
+					"weight" "500"
+		 			"additive" "0"
+					"antialias" "1"
+		 		}
+		}
 		HudHintText
 		{
 			"1"
@@ -1001,82 +1971,6 @@ Scheme{Colors{
 				"antialias" "1"
 			}
 		}
-		"xHairSpread"
-		{
-			"1"
-			{
-			"name" "Crosshairs"
-			"tall" "20"
-			"weight" "0"
-			"antialias" "1"
-			"outline"	"1"
-			}
-		}
-		"xHairSpread2"
-		{
-			"1"
-			{
-			"name" "Crosshairs"
-			"tall" "20"
-			"weight" "0"
-			"antialias" "1"
-			"outline"	"1"
-			}
-		}
-		"xHairSpread3"
-		{
-			"1"
-			{
-			"name" "Crosshairs"
-			"tall" "20"
-			"weight" "0"
-			"antialias" "1"
-			"outline"	"1"
-			}
-		}
-		"xHairSpread4"
-		{
-			"1"
-			{
-			"name" "Crosshairs"
-			"tall" "20"
-			"weight" "0"
-			"antialias" "1"
-			"outline"	"1"
-			}
-		}
-		"CrossHairKonrWings"
-		{
-			"1"
-			{
-				"name"		"Garm3nFont"
-				"tall"		"18"
-				"weight"	"800"
-				"antialias"	"1"
-			}
-		}
-		"CrossHairKonrDot"
-		{
-			"1"
-			{
-				"name"		"Wibble"
-				"tall"		"12"
-				"weight"	"0"
-				"antialias"	"1"
-			}
-		}
-
-		"CrossHairKonrWingsOutline"
-		{
-			"1"
-			{
-				"name"		"Garm3nFont"
-				"tall"		"18"
-				"weight"	"0"
-				"outline" "1"
-				"antialias"	"1"
-			}
-		}
 		"HudFontMediumSmallBold"
 		{
 			"1"
@@ -1124,6 +2018,17 @@ Scheme{Colors{
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
+			}
+		}	
+		"HudFontSmallishBold"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"16"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}	
 		"HudFontSmallBold"
@@ -1591,17 +2496,6 @@ Scheme{Colors{
 				"antialias" "1"
 				"weight"	"500"
 			}
-		}	
-		"SpectatorKeyHints"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"8"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-			}
 		}
 		"MenuKeys"
 		{
@@ -1689,7 +2583,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Maven Pro Medium"
 				"tall"		"8"
 				"tall_hidef"	"10"
 				"tall_lodef"	"14"
@@ -1702,7 +2596,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Maven Pro Medium"
 				"tall"		"10"
 				"tall_hidef"	"12"
 				"tall_lodef"	"14"
@@ -1715,7 +2609,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Maven Pro Medium"
 				"tall"		"14"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1727,8 +2621,8 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"20"
+				"name"		"Maven Pro Medium"
+				"tall"		"10"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
@@ -1981,7 +2875,6 @@ Scheme{Colors{
 				"dropshadow"	"1"
 			}
 		}
-
 		MenuSmallestFont
 		{
 			"1"
@@ -2226,10 +3119,10 @@ Scheme{Colors{
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"Maven Pro Medium"
 				"tall"		"12"
 				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				//"range"		"0x0000 0x017F"	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"600 1199"
 				"antialias"	"1"
 			}
@@ -2253,37 +3146,6 @@ Scheme{Colors{
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
-			}
-		}
-		// Used by scoreboard and spectator UI for names which don't map in the normal fashion
-		"DefaultVerySmallFallBack"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"10"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"480 599"
-				"antialias"	"1"
-			}
-			"2"
-			{
-				"name"		"Verdana"
-				"tall"		"12"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"600 1199"
-				"antialias"	"1"
-			}
-			"3"
-			{
-				"name"		"Verdana"
-				"tall"		"15"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"1200 6000"
-				"antialias"	"1"
 			}
 		}
 		"ItemFontNameSmall"
@@ -2375,6 +3237,205 @@ Scheme{Colors{
 				"weight"	"0"
 				"additive"	"1"
 				"antialias" 	"1"
+			}
+		}
+
+		//
+		//////////////////// REPLAY FONTS //////////////////////////////
+		//
+		"ReplayVerySmall"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"12"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"480 599"
+			}
+			"2"
+			{
+				"name"		"Verdana"
+				"tall"		"12"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"600 767"
+			}
+			"3"
+			{
+				"name"		"Verdana"
+				"tall"		"12"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"768 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"Verdana"
+				"tall"		"14"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1024 1199"
+				"antialias"	"1"
+			}
+			"5"
+			{
+				"name"		"Verdana"
+				"tall"		"16"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1200 6000"
+				"antialias"	"1"
+			}
+		}
+		"ReplayBrowserSmallest"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"11"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"ReplaySmaller"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"12"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"480 599"
+			}
+			"2"
+			{
+				"name"		"Verdana"
+				"tall"		"13"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"600 767"
+			}
+			"3"
+			{
+				"name"		"Verdana"
+				"tall"		"14"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"768 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"Verdana"
+				"tall"		"20"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"1024 1199"
+				"antialias"	"1"
+			}
+			"5"
+			{
+				"name"		"Verdana"
+				"tall"		"22"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"1200 6000"
+				"antialias"	"1"
+			}
+			"6"
+			{
+				"name"		"Arial"
+				"tall"		"12"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"0"
+			}
+		}
+		"ReplayMediumSmall"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"11"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"ReplayMedium"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"14"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"ReplayMediumBig"
+		{
+			"1"
+			{
+				"name"		"TF2"
+				"tall"		"18"
+				"tall_hidef"	"24"
+				"tall_lodef"	"18"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"ReplayBrowserTab"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"24"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"ReplayLarger"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"18"
+				"tall_hidef"	"24"
+				"tall_lodef"	"20"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
+		//
+		//////////////////// ECON FONTS //////////////////////////////
+		//
+		"EconFontSmall"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"14"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"EconFontMedium"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"24"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 	}
@@ -2594,6 +3655,7 @@ Scheme{Colors{
 				}
 			}
 		}
+
 		SalePriceBorder
 		{
 			"inset" "0 0 1 1"
@@ -2633,7 +3695,7 @@ Scheme{Colors{
 				}
 			}
 		}
-				
+		
 		MainMenuSubButtonBorder
 		{
 			"inset" "0 0 1 1"
@@ -2766,40 +3828,6 @@ Scheme{Colors{
 			"draw_corner_height" 	"5"	
 		}
 
-		ReplayDefaultBorder
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"replay/panel_scalable_default"
-			"src_corner_height"		"23"			// pixels inside the image
-			"src_corner_width"		"23"
-			"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"7"	
-		}
-		ReplayHighlightBorder
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"replay/panel_scalable_highlight"
-			"src_corner_height"		"23"			// pixels inside the image
-			"src_corner_width"		"23"
-			"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"7"	
-		}
-		ReplayBalloonBorder
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"replay/panel_scalable_balloon"
-			"src_corner_height"		"23"			// pixels inside the image
-			"src_corner_width"		"23"
-			"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"7"	
-		}
-		
 		ToolTipBorder
 		{
 			"inset" "0 0 1 1"
@@ -2879,7 +3907,7 @@ Scheme{Colors{
 			"draw_corner_height" 	"11"	
 		}
 		
-		LoadoutItemBorder
+		EconItemBorder
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
@@ -2890,6 +3918,17 @@ Scheme{Colors{
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"11"	
 		}
+		Econ.Button.Border.Default
+		{
+			"inset" "0 0 0 0"
+			"backgroundtype" "2"
+		}
+		Econ.Button.Border.Armed
+		{
+			"inset" "0 0 0 0"
+			"backgroundtype" "2"
+		}
+
 		LoadoutItemMouseOverBorder
 		{
 			"bordertype"			"scalable_image"
@@ -3080,6 +4119,30 @@ Scheme{Colors{
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"11"	
 		}
+		BackpackItemBorder_Haunted
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"QualityColorHaunted"
+			
+			"image"					"backpack_rect_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"11"	
+		}
+		BackpackItemMouseOverBorder_Haunted
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"QualityColorHaunted"
+			
+			"image"					"backpack_rect_mouseover_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"11"	
+		}
 		BackpackItemBorder_Vintage
 		{
 			"bordertype"			"scalable_image"
@@ -3217,6 +4280,30 @@ Scheme{Colors{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"color"					"QualityColorStrange"
+			
+			"image"					"backpack_rect_mouseover_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"11"	
+		}
+		BackpackItemBorder_Completed
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"QualityColorCompleted"
+			
+			"image"					"backpack_rect_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"11"	
+		}
+		BackpackItemMouseOverBorder_Completed
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"QualityColorCompleted"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -3468,6 +4555,18 @@ Scheme{Colors{
 			"draw_corner_height" 	"4"	
 		}
 		
+		StoreInnerShadowBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"store/innershadow_border"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"	
+		}
+		
 		StoreNewBorder
 		{
 			"bordertype"			"scalable_image"
@@ -3570,6 +4669,7 @@ Scheme{Colors{
 			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"8"	
 		}
+
 		QuickplayBorder
 		{
 			"inset" "0 0 1 1"
@@ -3610,8 +4710,150 @@ Scheme{Colors{
 			}
 		}
 
-	}
+		SteamWorkshopBorder
+		{
+			"inset" "0 0 1 1"
+			Left
+			{
+				"1"
+				{
+					"color" "TanDark"
+					"offset" "0 1"
+				}
+			}
 
+			Right
+			{
+				"1"
+				{
+					"color" "TanDark"
+					"offset" "1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "TanDark"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "TanDark"
+					"offset" "0 0"
+				}
+			}
+		}
+
+		ReplayFatLineBorderRedBGOpaque
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"replay/fatlineborder_red"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
+		}
+		ReplayFatLineBorderOpaque
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"replay/fatlineborder"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
+		}
+		ReplayGrayDialogBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"replay/graydialogborder"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"11"	
+		}
+		ReplayOutlinedGreyBox
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"replay/outlinedgreybox"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"11"	
+		}
+		ReplayOutlinedDullGreyBox
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"replay/dullgreybox"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"11"	
+		}
+		ReplayThinLineBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../hud/tournament_panel_brown"
+			//"image"					"../hud/color_panel_browner"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"	
+		}
+		ReplayDefaultBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"replay/panel_scalable_default"
+			"src_corner_height"		"23"			// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"7"	
+		}
+		ReplayHighlightBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"replay/panel_scalable_highlight"
+			"src_corner_height"		"23"			// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"7"	
+		}
+		ReplayBalloonBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"replay/panel_scalable_balloon"
+			"src_corner_height"		"23"			// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"7"	
+		}
+		ReplayBrowser.ScrollBar.SliderButton.Border
+		{
+		}
+	}
 	//////////////////////// CUSTOM FONT FILES /////////////////////////////
 	//
 	// specifies all the custom (non-system) font files that need to be loaded to service the above described fonts
@@ -3674,41 +4916,76 @@ Scheme{Colors{
 			{
 				"range" "0x0000 0xFFFF"
 			}
-		}			
-		"7" 
-		{
-			"font" "resource/Surface_Medium.otf"
-			"name" "Surface-Medium"
-		}	
-		"8" 
-		{
-			"font" "resource/Surface_bold.otf"
-			"name" "Surface-bold"
-		}		
-		"9" 
-		{
-			"font" "resource/COOLVETI.TTF"
-			"name" "Coolvetica"
 		}
-		"10" 
+		"7"
 		{
-			"font" "resource/ASTRO867.TTF"
-			"name" "Astro 867"
-		}			
-		"11" 
-		{
-			"font" "resource/taller_evolution.ttf"
-			"name" "taller evolution"
-		}	
-       "	12"
-       		{
-			"font" "resource/Courier.ttf"
-			"name" "Courier"
-        	}
-		"13" // replace with number not being used
-		{
-		"font" "resource/crosshairs.ttf"
-		"name" "Crosshairs"
+			"font" "resource/fonts/MavenPro-Regular.ttf"
+			"name" "Maven Pro Regular"
 		}
-}
+		"8"
+		{
+			"font" "resource/fonts/MavenPro-Medium.ttf"
+			"name" "Maven Pro Medium"
+		}
+		"9"
+		{
+			"font" "resource/fonts/MavenPro-Bold.ttf"
+			"name" "Maven Pro Bold"
+		}
+		"10"
+		{
+			"font" "resource/fonts/MavenPro-Black.ttf"
+			"name" "Maven Pro Black"
+		}
+		"11"
+		{
+			"font" "resource/fonts/days.ttf"
+			"name" "Days"
+		}
+		"12"
+		{
+			"font" "resource/fonts/HALFLIFE2.ttf"
+			"name" "HalfLife2"
+		}
+		"13"
+		{
+			"font" "resource/fonts/Crosshairs.otf"
+			"name" "Crosshairs Regular"
+		}
+		"14" 
+		{
+			"font" "resource/fonts/Paula.ttf"
+			"name" "Paula"
+		}
+		"15"
+		{
+			"font" "resource/fonts/ASTRO867.ttf"
+			"name" "ASTRO_867"
+		}
+		"16" 
+		{
+			"font" "resource/fonts/Synthview - NovecentoWide-Bold.otf"
+			"name" "Novecentowide-Bold"
+		}
+		"17" 
+		{
+			"font" "resource/fonts/Synthview - NovecentoWide-DemiBold.otf"
+			"name" "NovecentoWide-DemiBold"
+		}
+		"18" 
+		{
+			"font" "resource/fonts/Garm3nFont.ttf"
+			"name" "Garm3nFont"
+		}
+		"19"
+		{
+			"font" "resource/fonts/FORMASGE.ttf"
+			"name" "Formas germetricas 1"
+		}	
+		"20"
+		{
+			"font" "resource/fonts/FuturaStd-Medium.otf"
+			"name" "FuturaStd-Medium"
+		}					
+	}
 }

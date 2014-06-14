@@ -4,67 +4,69 @@
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"itempanel"
-		"xpos"			"r270"
-		"ypos"			"300"
+		"xpos"			"r155"
+		"ypos"			"r350"
 		"zpos"			"1"
-		"wide"			"256"
-		"tall"			"180"
+		"wide"			"150"
+		"tall"			"100"
 		"visible"		"0"
-		"alpha" "0"
-		"bgcolor_override"		"0 0 0 100"
+		"bgcolor_override"		"255 255 255 0"
 		"PaintBackgroundType"	"0"
+		"paintborder"	"0"
 		
-		"model_xpos"		"10"
-		"model_center_y"	"1"
-		"model_wide"		"90"
-		"model_tall"		"55"
+		"model_xpos"	"25"
+		"model_center_y"	"0"
+		"model_ypos"	"16"
+		"model_tall"	"40"
+		"model_wide"	"100"
 		
-		"text_xpos"		"90"
-		"text_wide"		"170"
-		"text_center"	"1"
+		"text_xpos"		"5"
+		"text_ypos"		"60"
+		"text_wide"		"145"
 		
-		"max_text_height"	"90"
-		"padding_height"	"40"
+		"max_text_height"	"130"
+		"padding_height"	"5"
 		"resize_to_text"	"1"
-		"text_forcesize"	"2"
-		
+		"text_forcesize"	"3"
+
+		"ItemBG"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"ItemBG"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"-1"
+			"wide"			"200"
+			"tall"			"1000"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"fillcolor"		"0 0 0 100"
+		}
 		"itemmodelpanel"
 		{
 			"fieldName"		"itemmodelpanel"
 			"use_item_rendertarget" "1"
 			"useparentbg"		"1"
 		}
-
-    "CalloutBG1"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"CalloutBG1"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"0"
-		"wide"			"256"
-		"tall"			"180"
-		"visible"		"1"
-		"enabled"		"1"
-    "fillcolor" "0 0 0 0"
-	}
 		
 		"ItemLabel"
 		{	
-			"ControlName"	"Label"
+			"ControlName"	"CExLabel"
 			"fieldName"		"ItemLabel"
-			"font"			"DefaultSmall"
-			"xpos"			"10"
-			"ypos"			"3"
+			"font"			"chippyBold10"
+			"xpos"			"5"
+			"ypos"			"5"
 			"zpos"			"1"
-			"wide"			"0"
-			"tall"			"9"
+			"wide"			"180"
+			"tall"			"10"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"0"
-			"enabled"		"0"
+			"visible"		"1"
+			"enabled"		"1"
 			"labelText"		"#FreezePanel_Item"
-			"textAlignment"	"Left"
+			"textAlignment"	"north-west"
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}
@@ -88,16 +90,16 @@
 			"fgcolor"		"235 226 202 255"
 			"centerwrap"	"1"
 		}
-	}		
+	}			
 	
 	"FreezePanelBase"	[$WIN32]
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"FreezePanelBase"
-		"xpos"			"c-128"
-		"ypos"			"c70"		
-		"wide"			"256"		
-		"tall"			"35"		
+		"xpos"			"c0"
+		"ypos"			"c0"		
+		"wide"			"120"		
+		"tall"			"25"		
 		"visible"		"1"
 	
 		"FreezePanelBG"
@@ -105,18 +107,18 @@
 			"ControlName"		"CTFImagePanel"
 			"fieldName"		"FreezePanelBG"
 			"xpos"			"0"
-			"ypos"			"10"
+			"ypos"			"23"
 			"zpos"			"0"
-			"wide"			"256"
-			"tall"			"15"
+			"wide"			"120"
+			"tall"			"25"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../hud/color_panel_blu"
+			"image"			"../hud/tournament_panel_blu"
 			"scaleImage"		"1"	
-      "src_corner_height"	 "15"
-      "src_corner_width"	 "15"
-      "draw_corner_width"	 "0"	
-      "draw_corner_height" "0"
+      			"src_corner_height"	 "23"
+      			"src_corner_width"	 "23"
+      			"draw_corner_width"	 "0"	
+      			"draw_corner_height" 	"0"
 		}
 		"FreezePanelBGWhite"
 		{
@@ -129,19 +131,19 @@
 			"tall"			"15"
 			"visible"		"1"
 			"enabled"		"1"
-      "fillcolor"          "255 255 255 255"
+      			"fillcolor"          "255 255 255 255"
 			"scaleImage"		"1"	
-      "src_corner_height"	 "15"
-      "src_corner_width"	 "15"
-      "draw_corner_width"	 "0"	
-      "draw_corner_height" "0"
+     			"src_corner_height"	 "15"
+     			"src_corner_width"	 "15"
+     			"draw_corner_width"	 "0"	
+    			"draw_corner_height" "0"
 		}
 		"FreezeLabel"
 		{	
 			"ControlName"		"Label"
 			"fieldName"		"FreezeLabel"
 			"font"			"DefaultSmall"
-			"xpos"			"40"
+			"xpos"			"r75"
 			"ypos"			"62"
 			"zpos"			"1"
 			"wide"			"252"
@@ -158,10 +160,10 @@
 		
 		"FreezePanelHealth"		[$WIN32]
 		{
-			"ControlName"	"CTFFreezePanelHealth"
+			"ControlName"			"CTFFreezePanelHealth"
 			"fieldName"		"FreezePanelHealth"
 			"xpos"			"0"
-			"ypos"			"6"
+			"ypos"			"0"
 			"zpos"			"1"
 			"wide"			"40"
 			"tall"			"20"
@@ -169,21 +171,20 @@
 			"enabled"		"1"	
 			"HealthBonusPosAdj"	"9"
 			"HealthDeathWarning"	"0.49"
-			"TFFont"		"HudFontSmall"
+			"TFFont"		"chippyBlack21"
 			"HealthDeathWarningColor"	"HUDDeathWarning"
 			"TextColor"		"HudOffWhite"
-		}	
-
+		}
 		"FreezeLabelKiller"
 		{	
 			"ControlName"	"Label"
 			"fieldName"		"FreezeLabelKiller"
 			"fgcolor_override"  "255 255 255 255"
-			"font"			"default"
-			"xpos"			"55"
-			"ypos"			"10"
+			"font"			"chippyBold11"
+			"xpos"			"c-75"
+			"ypos"			"3"
 			"zpos"			"1"
-			"wide"			"252"
+			"wide"			"150"
 			"tall"			"15"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -192,7 +193,6 @@
 			"labelText"		"%killername%"
 			"textAlignment"		"Left"
 		}
-
 		"AvatarImage"
 		{
 			"ControlName"		"CAvatarImagePanel"
@@ -202,8 +202,8 @@
 			"zpos"			"0"
 			"wide"			"11"
 			"tall"			"11"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			""
 			"scaleImage"		"1"	
 			"color_outline"		"52 48 45 255"
@@ -271,6 +271,25 @@
 				"labelText"		"%nemesisname%"
 				"textAlignment"		"west"
 			}
+
+    			"NemesisLabel2"
+                            		{      
+                                    		"ControlName"           "Label"
+                                    		"fieldName"             "NemesisLabel2"
+                                    		"font"                  "HudFontMediumSmall"
+                                   		 "xpos"                  "134"
+                                   		 "ypos"                  "10"
+                                    		"zpos"                  "6"
+                                    		"wide"                  "112"
+                                    		"tall"                  "18"
+                                   		 "autoResize"            "0"
+                                    		"pinCorner"             "0"
+                                    		"visible"               "0"
+                                    		"enabled"               "1"
+                                    		"labelText"             "%nemesisadvice%"
+                                    		"textAlignment"         "west"
+                            		}
+
 		}
 	}
 		

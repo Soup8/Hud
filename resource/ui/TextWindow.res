@@ -33,8 +33,8 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"M0refont24"
-		"fgcolor"		"255 255 255 255"
+		"font"			"chippyBold11"
+		"fgcolor"		"235 226 202 255"
 	}	
 
 	"TextMessage"
@@ -49,7 +49,7 @@
 	{
 		"ControlName"	"CExRichText"
 		"fieldName"		"TFTextMessage"
-		"font"			"default"
+		"font"			"chippyBold11"
 		"xpos"			"c-125"
 		"ypos"			"140"
 		"zpos"			"1"
@@ -61,7 +61,7 @@
 		"enabled"		"1"
 		"paintborder"	"0"
 		"textAlignment"	"left"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"235 226 202 255"
 	}
 
 	"HTMLMessage"
@@ -102,7 +102,7 @@
 		"wrap"			"0"
 		"command"		"okay"
 		"default"		"1"
-		"font"			"default"
+		"font"			"chippyBold11"
 	}
 	
 	"MenuBG"
@@ -140,7 +140,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"0 0 0 100"
+		"fillcolor"		"0 0 0 200"
 		"PaintBackgroundType"	"0"
 	}						
 	

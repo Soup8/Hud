@@ -33,6 +33,12 @@
 		"button_ydelta"	"80"
 		"button_override_delete_xpos" "0"
 		
+		"page_button_y"	"288"
+		"page_button_x_delta" "3"
+		"page_button_y_delta" "3"
+		"page_button_per_row" "20"
+		"page_button_height" "13"
+		
 		"modelpanels_kv"
 		{
 			"ControlName"	"CItemModelPanel"
@@ -153,6 +159,7 @@
 		"selectionTextColor_override" "235 226 202 255"
 		"defaultSelectionBG2Color_override" "0 0 0 0"
 	}	
+	
 	"ShowBaseItemsCheckbox"
 	{
 		"ControlName"	"CheckButton"
@@ -334,6 +341,19 @@
 		"Command"		"prevpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"border_default"	"MainMenuButtonDefault"
+		"border_armed"		"MainMenuButtonArmed"
+		"border_disabled"	"MainMenuButtonDisabled"
+		
+		"paintbackground"	"0"
+		
+		"defaultFgColor_override" "46 43 42 255"
+		"armedFgColor_override" "235 226 202 255"
+		"depressedFgColor_override" "46 43 42 255"
+		
+		"image_drawcolor"	"117 107 94 255"
+		"image_armedcolor"	"235 226 202 255"
 	}
 	"PrevPageButtonMark"
 	{
@@ -408,6 +428,20 @@
 		"Command"		"nextpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"border_default"	"MainMenuButtonDefault"
+		"border_armed"		"MainMenuButtonArmed"
+		"border_disabled"	"MainMenuButtonDisabled"
+		
+		"paintbackground"	"0"
+		
+		"defaultFgColor_override" "46 43 42 255"
+		"armedFgColor_override" "235 226 202 255"
+		"depressedFgColor_override" "46 43 42 255"
+		
+		"image_drawcolor"	"117 107 94 255"
+		"image_armedcolor"	"235 226 202 255"
+
 	}		
 	
 	"DragToNextPageButton"
@@ -432,6 +466,19 @@
 		"Command"		""
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"border_default"	"MainMenuButtonDefault"
+		"border_armed"		"MainMenuButtonArmed"
+		"border_disabled"	"MainMenuButtonDisabled"
+		
+		"paintbackground"	"0"
+		
+		"defaultFgColor_override" "46 43 42 255"
+		"armedFgColor_override" "235 226 202 255"
+		"depressedFgColor_override" "46 43 42 255"
+		
+		"image_drawcolor"	"117 107 94 255"
+		"image_armedcolor"	"235 226 202 255"
 	}		
 	"DragToPrevPageButton"
 	{
@@ -455,6 +502,19 @@
 		"Command"		""
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"border_default"	"MainMenuButtonDefault"
+		"border_armed"		"MainMenuButtonArmed"
+		"border_disabled"	"MainMenuButtonDisabled"
+		
+		"paintbackground"	"0"
+		
+		"defaultFgColor_override" "46 43 42 255"
+		"armedFgColor_override" "235 226 202 255"
+		"depressedFgColor_override" "46 43 42 255"
+		
+		"image_drawcolor"	"117 107 94 255"
+		"image_armedcolor"	"235 226 202 255"
 	}		
 	
 	"CancelApplyToolButton"
@@ -480,6 +540,19 @@
 		"Command"		"canceltool"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"border_default"	"MainMenuButtonDefault"
+		"border_armed"		"MainMenuButtonArmed"
+		"border_disabled"	"MainMenuButtonDisabled"
+		
+		"paintbackground"	"0"
+		
+		"defaultFgColor_override" "46 43 42 255"
+		"armedFgColor_override" "235 226 202 255"
+		"depressedFgColor_override" "46 43 42 255"
+		
+		"image_drawcolor"	"117 107 94 255"
+		"image_armedcolor"	"235 226 202 255"
 	}		
 
 	"DeleteButton"
@@ -505,6 +578,19 @@
 		"Command"		"deleteitem"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"border_default"	"MainMenuButtonDefault"
+		"border_armed"		"MainMenuButtonArmed"
+		"border_disabled"	"MainMenuButtonDisabled"
+		
+		"paintbackground"	"0"
+		
+		"defaultFgColor_override" "0 0 0 255"
+		"armedFgColor_override" "235 226 202 255"
+		"depressedFgColor_override" "0 0 0 255"
+		
+		"image_drawcolor"	"117 107 94 255"
+		"image_armedcolor"	"235 226 202 255"
 	}			
 
 	"UseButton"
@@ -530,6 +616,19 @@
 		"Command"		"useitem"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"border_default"	"MainMenuButtonDefault"
+		"border_armed"		"MainMenuButtonArmed"
+		"border_disabled"	"MainMenuButtonDisabled"
+		
+		"paintbackground"	"0"
+		
+		"defaultFgColor_override" "46 43 42 255"
+		"armedFgColor_override" "235 226 202 255"
+		"depressedFgColor_override" "46 43 42 255"
+		
+		"image_drawcolor"	"117 107 94 255"
+		"image_armedcolor"	"235 226 202 255"
 	}
 	
 	"StyleButton"
@@ -555,6 +654,19 @@
 		"Command"		"showstyles"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"border_default"	"MainMenuButtonDefault"
+		"border_armed"		"MainMenuButtonArmed"
+		"border_disabled"	"MainMenuButtonDisabled"
+		
+		"paintbackground"	"0"
+		
+		"defaultFgColor_override" "46 43 42 255"
+		"armedFgColor_override" "235 226 202 255"
+		"depressedFgColor_override" "46 43 42 255"
+		
+		"image_drawcolor"	"117 107 94 255"
+		"image_armedcolor"	"235 226 202 255"
 	}
 
 	"DetailsButton"
@@ -580,6 +692,19 @@
 		"Command"		"showdetails"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"border_default"	"MainMenuButtonDefault"
+		"border_armed"		"MainMenuButtonArmed"
+		"border_disabled"	"MainMenuButtonDisabled"
+		
+		"paintbackground"	"0"
+		
+		"defaultFgColor_override" "46 43 42 255"
+		"armedFgColor_override" "235 226 202 255"
+		"depressedFgColor_override" "46 43 42 255"
+		
+		"image_drawcolor"	"117 107 94 255"
+		"image_armedcolor"	"235 226 202 255"
 	}
 
 	"ShowExplanationsButton"
@@ -605,6 +730,17 @@
 		"Command"		"show_explanations"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"border_default"	"MainMenuButtonDefault"
+		"border_armed"		"MainMenuButtonArmed"
+		"paintbackground"	"0"
+		
+		"defaultFgColor_override" "46 43 42 255"
+		"armedFgColor_override" "235 226 202 255"
+		"depressedFgColor_override" "46 43 42 255"
+		
+		"image_drawcolor"	"117 107 94 255"
+		"image_armedcolor"	"235 226 202 255"
 	}
 	
 	"StartExplanation"

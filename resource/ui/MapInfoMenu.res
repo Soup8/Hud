@@ -30,8 +30,8 @@
 		"enabled"		"1"
 		"labelText"		"%mapname%"
 		"textAlignment"	"center"
-		"font"			"M0refont24"
-		"fgcolor"		"255 255 255 255"
+		"font"			"chippyMedium14"
+		"fgcolor"		"235 226 202 255"
 	}
 
 	"MapInfoType"
@@ -49,15 +49,15 @@
 		"enabled"		"1"
 		"labelText"		"%gamemode%"
 		"textAlignment"	"center"
-		"font"			"M0renumber"
-		"fgcolor"		"255 255 255 255"
+		"font"			"chippyBold11"
+		"fgcolor"		"235 226 202 255"
 	}	
 	
 	"MapInfoText"
 	{
 		"ControlName"	"CExRichText"
 		"fieldName"		"MapInfoText"
-		"font"			"default"
+		"font"			"chippyMedium8Days"
 		"xpos"			"c-75"
 		"ypos"			"c-75"
 		"zpos"			"3"
@@ -69,7 +69,7 @@
 		"enabled"		"1"
 		"paintborder"	"0"
 		"textAlignment"	"center"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"235 226 202 255"
 	}
 	
 	"MapImage"
@@ -124,7 +124,7 @@
 		"textAlignment"	"center"
 		"command"		"continue"
 		"default"		"1"
-		"font"			"default"
+		"font"			"chippyBold11"
 		"fgcolor"		"Black"
 	}
 	"MapInfoWatchIntro"

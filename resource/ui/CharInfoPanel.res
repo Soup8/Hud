@@ -126,7 +126,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"BACK (&Q)"
+		"labelText"		"BACK (Q)"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
@@ -135,6 +135,32 @@
 		"Command"		"back"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"border_default"	"MainMenuButtonDefault"
+		"border_armed"		"MainMenuButtonArmed"
+		
+		"paintbackground"	"0"
+		
+		"defaultFgColor_override" "46 43 42 255"
+		"armedFgColor_override" "235 226 202 255"
+		"depressedFgColor_override" "46 43 42 255"
+		
+		"image_drawcolor"	"117 107 94 255"
+		"image_armedcolor"	"235 226 202 255"
+	}		
+	"BackButtonShortcut"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"BackButtonShortcut"
+		"xpos"			"r-270"
+		"ypos"			"437"
+		"zpos"			"2"
+		"wide"			"100"
+		"tall"			"25"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"&Q"
+		"Command"		"back"
 	}
 	"CloseButton"
 	{
@@ -150,7 +176,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"CLOSE (&E)"
+		"labelText"		"CLOSE (E)"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
@@ -159,6 +185,32 @@
 		"Command"		"close"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"border_default"	"MainMenuButtonDefault"
+		"border_armed"		"MainMenuButtonArmed"
+		
+		"paintbackground"	"0"
+		
+		"defaultFgColor_override" "46 43 42 255"
+		"armedFgColor_override" "235 226 202 255"
+		"depressedFgColor_override" "46 43 42 255"
+		
+		"image_drawcolor"	"117 107 94 255"
+		"image_armedcolor"	"235 226 202 255"
+	}		
+	"CloseButtonShortcut"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"CloseButtonShortcut"
+		"xpos"			"r-220"
+		"ypos"			"437"
+		"zpos"			"2"
+		"wide"			"100"
+		"tall"			"25"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"&E"
+		"Command"		"close"
 	}
 	"NotificationsPresentPanel"
 	{

@@ -4,36 +4,42 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
-		"xpos"				"c-50"
-		"ypos"				"1"
+		"xpos"				"c-30"
+		"ypos"				"0"	[$WIN32]
+		"ypos"				"24"	[$X360]
 		"zpos"				"1"
-		"wide"				"100"
+		"wide"				"150"
 		"tall"				"150"
 		"visible"			"0"
 		"enabled"			"1"
-		"delta_item_x"			"38"	[$WIN32]
-		"delta_item_start_y"	"10"
-		"delta_item_end_y"		"10"
-		"PositiveColor"			"0 255 0 255"
-		"NegativeColor"			"255 0 0 255"
-		"delta_lifetime"		"2"
-		"delta_item_font"		"default"
+		"delta_item_x"			"12"	[$WIN32]
+		"delta_item_x"			"115"	[$X360]
+		"delta_item_start_y"	"15"
+		"delta_item_end_y"		"16"
+		"PositiveColor"			"0 225 0 255"
+		"NegativeColor"			"255 75 75 255"
+		"delta_lifetime"		"3"
+		"delta_item_font"		"chippyBold14"
+		"fgcolor"			"White"
+		"fgcolor_override"		"White"
 		
 		"TimePanelValue"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"M0refont16"
-			"fgcolor"		"255 255 255 255"
-			"xpos"			"30"
-			"ypos"			"-2"
+			"font"			"chippyBold14"
+			"xpos"			"8"
+			"ypos"			"-5"
 			"zpos"			"3"
-			"wide"			"40"
-			"tall"			"12"
+			"wide"			"45"
+			"tall"			"31"
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"		"center"
-			"labelText"		"0:00"
+			"labelText"		"00:00"
+			"fgcolor"		"White"
+			"fgcolor_override"	"255 255 255 255"
+			"fgcolor_override"	"White"
 		}	
-	}	
+	}
 }

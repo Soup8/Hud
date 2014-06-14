@@ -44,7 +44,6 @@
 		"scaleImage"	"1"	
 		"icon"			"obj_status_tele_entrance"
 		"iconColor"		"255 255 255 255"
-    "alpha" "125"
 	}
 	
 	"NotBuiltPanel"
@@ -59,7 +58,7 @@
 
 		"NotBuiltLabel"
 		{
-			"ControlName"	"CTFLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"NotBuiltLabel"
 			"font"			"DefaultVerySmall"
 			"xpos"			"60"
@@ -68,7 +67,7 @@
 			"tall"			"31"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"0"
+			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"#Building_hud_tele_enter_not_built_360"
 			"textAlignment"	"Left"
@@ -101,7 +100,6 @@
 			"scaleImage"	"1"	
 			"icon"			"obj_status_upgrade_1"
 			"iconColor"		"255 255 255 255"
-        "alpha" "125"
 		}
 
 		"Icon_Upgrade_2"
@@ -118,7 +116,6 @@
 			"scaleImage"	"1"	
 			"icon"			"obj_status_upgrade_2"
 			"iconColor"		"255 255 255 255"
-        "alpha" "125"
 		}
 
 		"Icon_Upgrade_3"
@@ -135,7 +132,6 @@
 			"scaleImage"	"1"	
 			"icon"			"obj_status_upgrade_3"
 			"iconColor"		"255 255 255 255"
-        "alpha" "125"
 		}
 
 
@@ -147,8 +143,8 @@
 			"ypos"			"0"
 			"wide"			"34"
 			"tall"			"31"
-			"visible"		"0"
-			"enabled"		"0"	
+			"visible"		"1"
+			"enabled"		"1"	
 			"icon"			"obj_status_alert_background"
 		}
 
@@ -166,23 +162,22 @@
 			"scaleImage"	"1"	
 			"icon"			"obj_status_icon_wrench"
 			"iconColor"		"255 255 255 255"
-      "alpha" "0"	
 		}
 		
 		"SapperIcon"
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"SapperIcon"
-			"xpos"			"70"
-			"ypos"			"-5"
-			"zpos"			"10"
-			"wide"			"40"
-			"tall"			"40"
+			"xpos"			"117"
+			"ypos"			"3"
+			"zpos"			"1"
+			"wide"			"25"
+			"tall"			"25"
 			"visible"		"0"
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_icon_sapper"
-			"iconColor"		"255 0 127 255"
+			"iconColor"		"255 255 255 255"
 		}
 
 		"Health"
@@ -201,7 +196,6 @@
 			"textAlignment"	"Left"
 			"dulltext"		"0"
 			"brighttext"	"0"
-      "alpha" "125"	
 		}
 
 		"BuildingPanel"
@@ -216,7 +210,7 @@
 
 			"BuildingLabel"
 			{
-				"ControlName"	"CTFLabel"
+				"ControlName"	"CExLabel"
 				"fieldName"		"BuildingLabel"
 				"font"			"DefaultSmall"
 				"xpos"			"0"
@@ -225,8 +219,8 @@
 				"tall"			"12"
 				"autoResize"	"0"
 				"pinCorner"		"0"
-				"visible"		"0"
-				"enabled"		"0"
+				"visible"		"1"
+				"enabled"		"1"
 				"labelText"		"#Building_hud_building"
 				"textAlignment"	"Left"
 				"dulltext"		"0"
@@ -249,7 +243,6 @@
 				"textAlignment"	"Left"
 				"dulltext"		"0"
 				"brighttext"	"0"
-        "alpha" "125"	
 			}
 		}
 	
@@ -277,7 +270,6 @@
 				"image"			"../hud/hud_obj_status_teleport_64"
 				"drawcolor"		"ProgressOffWhite"
 				"scaleImage"	"1"
-        "alpha" "125"	
 			}
 			
 			"ChargingPanel"
@@ -289,7 +281,6 @@
 				"wide"			"100"
 				"tall"			"31"
 				"visible"		"0"
-        "alpha" "125"	
 				
 				"Recharge"
 				{	
@@ -307,7 +298,6 @@
 					"textAlignment"	"Left"
 					"dulltext"		"0"
 					"brighttext"	"0"
-          "alpha" "125"	
 				}	
 			}
 			
@@ -323,7 +313,7 @@
 				
 				"TimesUsedLabel"
 				{	
-					"ControlName"	"CTFLabel"
+					"ControlName"	"CExLabel"
 					"fieldName"		"TimesUsedLabel"
 					"font"			"DefaultSmall"
 					"xpos"			"12"
@@ -338,7 +328,6 @@
 					"textAlignment"	"north-west"
 					"dulltext"		"0"
 					"brighttext"	"0"
-        "alpha" "125"	
 				}
 			}	
 			
@@ -356,7 +345,6 @@
 				"scaleImage"	"1"	
 				"icon"			"ico_metal"
 				"iconColor"		"ProgressOffWhite"
-        "alpha" "125"	
 			}
 			
 			"Upgrade"
@@ -375,7 +363,6 @@
 				"textAlignment"	"Left"
 				"dulltext"		"0"
 				"brighttext"	"0"
-        "alpha" "125"	
 			}
 		}
 	}

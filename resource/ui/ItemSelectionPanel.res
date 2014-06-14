@@ -214,8 +214,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ShowBackpack"
-		"xpos"			"c98"
-		"ypos"			"338"
+		"xpos"			"c100"
+		"ypos"			"340"
 		"zpos"			"20"
 		"wide"			"200"
 		"tall"			"25"
@@ -238,14 +238,21 @@
 		"border_armed"		"MainMenuButtonArmed"
 		"border_disabled"	"MainMenuButtonDisabled"
 		
-		"paintbackground"	"1"
+		"paintbackground"	"0"
+		
+		"defaultFgColor_override" "46 43 42 255"
+		"armedFgColor_override" "235 226 202 255"
+		"depressedFgColor_override" "46 43 42 255"
+		
+		"image_drawcolor"	"117 107 94 255"
+		"image_armedcolor"	"235 226 202 255"
 	}
 	"ShowSelection"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ShowSelection"
-		"xpos"			"c98"
-		"ypos"			"338"
+		"xpos"			"c100"
+		"ypos"			"340"
 		"zpos"			"20"
 		"wide"			"200"
 		"tall"			"25"
@@ -268,7 +275,14 @@
 		"border_armed"		"MainMenuButtonArmed"
 		"border_disabled"	"MainMenuButtonDisabled"
 		
-		"paintbackground"	"1"
+		"paintbackground"	"0"
+		
+		"defaultFgColor_override" "46 43 42 255"
+		"armedFgColor_override" "235 226 202 255"
+		"depressedFgColor_override" "46 43 42 255"
+		
+		"image_drawcolor"	"117 107 94 255"
+		"image_armedcolor"	"235 226 202 255"
 	}
 	
 	"PrevPageButton"
@@ -298,7 +312,14 @@
 		"border_armed"		"MainMenuButtonArmed"
 		"border_disabled"	"MainMenuButtonDisabled"
 		
-		"paintbackground"	"1"
+		"paintbackground"	"0"
+		
+		"defaultFgColor_override" "46 43 42 255"
+		"armedFgColor_override" "235 226 202 255"
+		"depressedFgColor_override" "46 43 42 255"
+		
+		"image_drawcolor"	"117 107 94 255"
+		"image_armedcolor"	"235 226 202 255"
 	}
 	"PrevPageButtonMark"
 	{
@@ -378,7 +399,14 @@
 		"border_armed"		"MainMenuButtonArmed"
 		"border_disabled"	"MainMenuButtonDisabled"
 		
-		"paintbackground"	"1"
+		"paintbackground"	"0"
+		
+		"defaultFgColor_override" "46 43 42 255"
+		"armedFgColor_override" "235 226 202 255"
+		"depressedFgColor_override" "46 43 42 255"
+		
+		"image_drawcolor"	"117 107 94 255"
+		"image_armedcolor"	"235 226 202 255"
 	}
 	
 	"mouseoveritempanel"
